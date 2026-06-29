@@ -2,10 +2,16 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-A deliberately **minimal** Neovim + tmux setup, tuned for **Python and C/C++**
-development with **Claude Code** for AI pair programming. Built on
+My personal Neovim + tmux config for day-to-day **AI infrastructure** work —
+training/serving code in **Python**, performance-sensitive **C/C++/CUDA**, and a
+lot of remote sessions over SSH + tmux. It's deliberately **minimal**, with
+**Claude Code** wired in for AI pair programming. Built on
 [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), then trimmed and
 reorganized so every plugin is one small, self-contained file.
+
+> Scope: a personal config, shared in case it's useful. The defaults reflect an
+> AI-infra workflow (Python + C/C++/CUDA, clangd/pyright, remote tmux), not a
+> general-purpose distro.
 
 ## ✨ Highlights
 

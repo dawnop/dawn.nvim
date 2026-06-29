@@ -2,10 +2,14 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-一套刻意保持**精简**的 Neovim + tmux 配置，专为 **Python 和 C/C++** 开发调校，
-并集成 **Claude Code** 做 AI 结对编程。基于
+我个人日常做 **AI Infra** 工作用的 Neovim + tmux 配置——训练/推理代码用
+**Python**，性能敏感的 **C/C++/CUDA** 算子，以及大量通过 SSH + tmux 的远程会话。
+配置刻意保持**精简**，并集成 **Claude Code** 做 AI 结对编程。基于
 [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) 精简重组而成，
 每个插件都是一个独立的小文件。
+
+> 定位：个人自用配置，公开出来仅供参考。默认设置都是围绕 AI Infra 工作流
+> （Python + C/C++/CUDA、clangd/pyright、远程 tmux）来的，并非通用发行版。
 
 ## ✨ 亮点
 
