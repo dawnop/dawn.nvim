@@ -1,0 +1,17 @@
+-- Magit-like Git interface.
+return {
+  'NeogitOrg/neogit',
+  lazy = true,
+  dependencies = {
+    'nvim-lua/plenary.nvim',
+    'sindrets/diffview.nvim',
+    'nvim-telescope/telescope.nvim',
+    'ibhagwan/fzf-lua',
+    'nvim-mini/mini.pick',
+    'folke/snacks.nvim',
+  },
+  cmd = 'Neogit',
+  keys = {
+    { '<leader>ng', '<cmd>Neogit<cr>', desc = 'Show Neogit UI' },
+  },
+}
